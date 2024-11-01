@@ -1,0 +1,87 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .error {
+    color: #dc3545;
+    margin-bottom: 10px;
+  }
+  
+  .wordList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .wordCard {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    background-color: #f8f9fa;
+  }
+  
+  .wordTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .wordDefinition,
+  .wordExample {
+    margin-bottom: 10px;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .deleteButton {
+    background-color: #dc3545;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c82333;
+  }
